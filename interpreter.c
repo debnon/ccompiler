@@ -16,6 +16,11 @@ int main() {
     }
 
     strcpy(str, "Hello, world!\n");
+    printf("%s", str);
+
+    Node node = {.str = "2", .next = NULL, .prev = NULL};
+    Node node2 = {.str = "2", .next= NULL, .prev = &node}; // & is the address of node
 
     free(str);
+
 }

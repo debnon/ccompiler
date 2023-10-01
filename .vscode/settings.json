@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "interpreter.C": "cpp"
+        "interpreter.C": "cpp",
+        "nodeOperations.C": "cpp",
+        "cstdlib": "cpp"
     }
 }

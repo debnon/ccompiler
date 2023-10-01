@@ -1,6 +1,7 @@
 #ifndef NODE_H
 #define NODE_H
 
+// compared to a typescript interface, provides memory layout (pointers) 
 typedef struct Node {
     char *str;
     struct Node *next;
